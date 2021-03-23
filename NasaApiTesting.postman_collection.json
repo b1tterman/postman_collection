@@ -1,0 +1,40 @@
+{
+	"info": {
+		"_postman_id": "3fa83372-6829-4432-93a0-76f0ee509eb2",
+		"name": "NasaApiTesting",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "nasa",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://api.nasa.gov/planetary/apod?api_key=h3meAkLktanSPqmOCQlM9jgcWVRGjh7YJIJju6tp&count=3",
+					"protocol": "https",
+					"host": [
+						"api",
+						"nasa",
+						"gov"
+					],
+					"path": [
+						"planetary",
+						"apod"
+					],
+					"query": [
+						{
+							"key": "api_key",
+							"value": "h3meAkLktanSPqmOCQlM9jgcWVRGjh7YJIJju6tp"
+						},
+						{
+							"key": "count",
+							"value": "3"
+						}
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
